@@ -1,0 +1,82 @@
+.container{
+    background: url("../assets/HERO SESSION/about.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.713), rgba(0, 0, 0, 0.686));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+
+}
+.a_hero{
+    height: 40rem;
+    width: 100%;
+ }
+
+.a_hero h2{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.grp_photo{
+    width: 100%;
+    height: 50rem;
+     display: grid;
+    grid-template-columns: 4fr 6fr;
+    padding: 3vw;
+
+}
+.grp_photo .text h4{
+    font-size: 3rem;
+}
+
+.grp_photo .text li, .grp_photo .text p{
+    font-size: .9rem;
+    color: grey;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+
+
+.gimage{
+    align-items: flex-start;
+    
+
+}
+.gimage span{
+    height: 80%;
+    width: 80%;
+    background: url(../assets/WWD.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+ }
+
+ .gimage span:hover{
+    filter: grayscale(0);
+ }
+
+.portfolio h4{
+    font-size: 2.5rem;
+}
+
+.portfolio .image{
+    position: relative;
+}
+.portfolio .image .info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+.info h3{
+    font-size: 1.5rem;
+
+}
+
+.info p{
+    font-size: .9rem;
+    color: rgb(198, 198, 198);
+    font-weight: 300
+    ;
+}

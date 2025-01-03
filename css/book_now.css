@@ -1,0 +1,27 @@
+.contact_form{
+    display: flex;
+    width: 80%;
+    border: 10px solid rgba(128, 128, 128, 0.085);
+    margin-left: 10%;
+    border-top-right-radius: 10rem;
+}
+.contact_form aside{
+    width: 100%;
+}
+aside .input{
+    width: 100%;
+}
+.input input, .textarea{
+    outline: none;
+}
+
+.input select{
+    padding: 1rem;
+    background: black;
+    border: none;
+    width: 90%;
+    color: grey;
+}
+footer{
+    margin-top: 10rem !important;
+}

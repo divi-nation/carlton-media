@@ -1,0 +1,91 @@
+.a_hero{
+    display: flex;
+    flex-direction: column !important;
+}
+.a_hero .tab_list{
+    padding: 1rem;
+    font-size: .9rem;
+    color: grey;
+}
+ 
+
+.tab_list span{
+    padding: 1rem;
+    color: grey;
+    font-size: .9rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    padding-bottom: .5rem;
+
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+.tab_list span:hover{
+    padding: 1.1rem;
+    font-size: 1rem;
+    color: rgb(227, 227, 227);
+    padding-bottom: 1rem;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.941);
+
+}
+
+
+.tab_list span.active{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.359);
+
+
+}
+.img_content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100rem;
+    margin-top: 10rem;
+    overflow: hidden;
+
+}
+
+
+.img_content aside{
+     display: grid;
+}
+
+.img_content aside .img_item{
+     border: 10px solid #121212;
+
+
+}
+
+.img_content .a1{
+    grid-template-rows: 5fr 7fr 6fr 7fr;
+}
+
+.a2{
+    grid-template-rows: 3fr 3fr 5fr;
+}
+.i1{
+    height: 90% !important;
+}
+.i2{
+    height: 80% !important;
+}
+.img_item{
+    background: url(../assets/camerajpg.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+    transition: 0.5s cubic-bezier(0.4, 0, 0.6, 1); /* Smooth transition for zoom effect */
+    transition-delay: .3s;
+}
+.img_item:hover{
+ 
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
