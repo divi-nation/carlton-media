@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="../../css/about.css">
     <link rel="stylesheet" href="../../css/contact.css">
     <link rel="stylesheet" href="../../css/portfolio.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
+
+    <link rel="stylesheet" href="../../css/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <style>
@@ -17,32 +20,14 @@
 </style>
 <body>
     <div class="preloader">
+        <img src="../../assets/carl.tonmedia white main.png" alt="">
 
     </div>
     
-    <div class="m_nav" >
-        <div class="close cen">
-            <i class="bi bi-x-lg"></i>
+    <?php
+    require "../../components/nav.php"
 
-        </div>
-        <div class="m_nav_element">
-            Home
-        </div>
-        <div class="m_nav_element" onclick="location.href='../about/'">
-            About 
-        </div>
-        <div class="m_nav_element" onclick="location.href='../contact/'">
-            Contact Us
-        </div>
-        <div class="m_nav_element" onclick="location.href='../portfolio/'">
-            Portfolio
-        </div>
-        <div class="m_nav_element" onclick="location.href='../book now/'">
-            Book Now
-        </div>
-     
-
-    </div>
+    ?>
     <div class="container">
         <nav>
             <span onclick="location.href='../home/'">
@@ -65,8 +50,8 @@
             <h2>Portfolio</h2>
 
             <div class="tab_list">
-                <span onclick="location.href='../portfolio/'">Photography</span>
-                <span class="active" onclick="location.href='../videography/'">Videography</span>
+                <span class="active" onclick="location.href='../portfolio/'">Photography</span>
+                <span onclick="location.href='../videography/'">Videography</span>
                 <span onclick="location.href='../graphic_design/'">Graphic Design</span>
             </div>
         </div>
@@ -123,6 +108,8 @@
         </footer>
         
     </div>
+    <script src="../../script/script.js"></script>
+
  
     
 </body>

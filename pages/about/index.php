@@ -17,32 +17,14 @@
 </style>
 <body>
     <div class="preloader">
+        <img src="../../assets/carl.tonmedia white main.png" alt="">
 
     </div>
     
-    <div class="m_nav" >
-        <div class="close cen">
-            <i class="bi bi-x-lg"></i>
+    <?php
+    require "../../components/nav.php"
 
-        </div>
-        <div class="m_nav_element">
-            Home
-        </div>
-        <div class="m_nav_element" onclick="location.href='../about/'">
-            About 
-        </div>
-        <div class="m_nav_element" onclick="location.href='../contact/'">
-            Contact Us
-        </div>
-        <div class="m_nav_element" onclick="location.href='../portfolio/'">
-            Portfolio
-        </div>
-        <div class="m_nav_element" onclick="location.href='../book now/'">
-            Book Now
-        </div>
-     
-
-    </div>
+    ?>
     <div class="container">
         <nav>
             <span onclick="location.href='../home/'">
@@ -62,21 +44,21 @@
 
         </nav>
         <div class="a_hero cen">
-            <h2>About Us</h2>
+            <h2 class="y">About Us</h2>
         </div>
 
         <div class="grp_photo">
             <div class="text">
-                <h4>Welcome to <br> Carl.tonmedia</h4>
+                <h4 class="y">Welcome to <br> Carl.tonmedia</h4>
                 <p>– Where creativity meets precision. We are a dynamic media company dedicated to bringing your vision to life through high-quality photography, videography, graphic design, and all forms of media production.
 
                     At Carl.tonmedia, we believe that every project is unique and deserves a tailored approach. Whether you're looking for stunning visuals to tell your brand's story, engaging content that resonates with your audience, or cutting-edge designs that stand out, we have the expertise and passion to make it happen.</p>
                 <p>Our team is made up of seasoned professionals who specialize in capturing moments, crafting compelling stories, and designing visuals that leave a lasting impression. From concept to execution, we work closely with each client to understand their goals and deliver results that exceed expectations.</p>
                 <ul>
-                    <li><strong>Photography:</strong> From portraits to events, product shots to lifestyle imagery, we capture moments that matter.</li>
-                    <li><strong>Videography:</strong> High-quality video production for commercials, corporate videos, social media, and more.</li>
-                    <li><strong>Graphic Design:</strong> Creative and strategic design solutions, including branding, marketing materials, and digital content.</li>
-                    <li><strong>Media Consulting:</strong> Expert advice on how to leverage media for maximum impact and visibility.</li>
+                    <li><strong class="y">Photography:</strong> From portraits to events, product shots to lifestyle imagery, we capture moments that matter.</li>
+                    <li><strong class="y">Videography:</strong> High-quality video production for commercials, corporate videos, social media, and more.</li>
+                    <li><strong class="y">Graphic Design:</strong> Creative and strategic design solutions, including branding, marketing materials, and digital content.</li>
+                    <li><strong class="y">Media Consulting:</strong> Expert advice on how to leverage media for maximum impact and visibility.</li>
                 </ul>
             </div>
             <div class="gimage cen">
@@ -161,12 +143,12 @@
 
             </div>
             <div class="text">
-                <h4>What Sets Us Apart?</h4>
-                     <ul>
-                        <li><strong>Creative Expertise:</strong> Our team consists of skilled professionals with a passion for storytelling and design, blending artistic flair with technical precision.</li>
-                        <li><strong>Customized Solutions:</strong> We believe every client is unique, which is why we tailor our services to suit your specific goals and vision.</li>
-                        <li><strong>Cutting-Edge Technology:</strong> Leveraging the latest tools and techniques, we ensure your project stands out in a fast-paced digital world.</li>
-                        <li><strong>Unmatched Quality:</strong> Attention to detail is at the core of what we do, ensuring every project is executed flawlessly.</li>
+                <h4 class="y">What Sets Us Apart?</h4>
+                     <ul class="">
+                        <li><strong class="y">Creative Expertise:</strong> Our team consists of skilled professionals with a passion for storytelling and design, blending artistic flair with technical precision.</li>
+                        <li><strong class="y">Customized Solutions:</strong> We believe every client is unique, which is why we tailor our services to suit your specific goals and vision.</li>
+                        <li><strong class="y">Cutting-Edge Technology:</strong> Leveraging the latest tools and techniques, we ensure your project stands out in a fast-paced digital world.</li>
+                        <li><strong class="y">Unmatched Quality:</strong> Attention to detail is at the core of what we do, ensuring every project is executed flawlessly.</li>
                    </ul>
                    <p>At Carl.TonMedia, we are more than just a media company—we are your creative partners. Whether you’re an individual looking for personal projects or a business aiming to amplify your brand, we’re here to make it happen.
 
@@ -206,6 +188,8 @@
         </footer>
         
     </div>
+    <script src="../../script/script.js"></script>
+
  
     
 </body>

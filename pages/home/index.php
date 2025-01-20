@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Carlton Media</title>
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/home.css">
     <link rel="stylesheet" href="../../css/responsive.css">
@@ -15,33 +15,17 @@
 </style>
 <body>
 
-    <div class="preloader">
+    <!-- <div class="preloader">
+        <img src="../../assets/carl.tonmedia white main.png" alt="">
 
-    </div>
+    </div> -->
+
+    <?php
+    require "../../components/nav.php"
+
+    ?>
     
-    <div class="m_nav" >
-        <div class="close cen">
-            <i class="bi bi-x-lg"></i>
-
-        </div>
-        <div class="m_nav_element">
-            Home
-        </div>
-        <div class="m_nav_element" onclick="location.href='../about/'">
-            About 
-        </div>
-        <div class="m_nav_element" onclick="location.href='../contact/'">
-            Contact Us
-        </div>
-        <div class="m_nav_element" onclick="location.href='../portfolio/'">
-            Portfolio
-        </div>
-        <div class="m_nav_element" onclick="location.href='../book now/'">
-            Book Now
-        </div>
-     
-
-    </div>
+    
     <div class="container">
         <nav>
             <span onclick="location.href='../home/'">
@@ -63,12 +47,12 @@
         
         <div class="hero">
             <div class="hero_text">
-                <h4>Photography <br>Studio</h4>
+                <h4 class="y">Photography <br>Studio</h4>
                 <h6>Who We Are?</h6>
                 <p>We’re Carl.tonmedia—a team of passionate creatives who love bringing ideas to life. From capturing beautiful photos to designing eye-catching graphics and producing stunning videos, we’re all about helping you tell your story. Our goal is simple: to create content that feels authentic, connects with people, and leaves a lasting impression.
 
                 </p>
-                <button>READ MORE ABOUT US</button>
+                <button class="">READ MORE ABOUT US</button>
                 <div class="socials">
                     <i class="bi bi-instagram "></i>
                     <i class="bi bi-youtube"></i>    
@@ -101,10 +85,14 @@
         </div>
         <div class="shots">
             <section class="text_section">
-                <h4>
+                <h4 class="y">
                     Best Shots
                 </h4>
                 <p>I don’t rush or force things to fit a mold. I immerse myself fully in the moment, embracing the emotions as they naturally unfold. I capture moments as they come—raw, authentic, and full of life.</p>
+                <div class="fw">
+                    
+                </div>
+
                 <button>Browse All Images</button>
 
             </section>
@@ -142,39 +130,35 @@
         <div class="categories">
 
             <div class="cat s">
-
                 <div class="top">
                     <div class="icon">
                         <img src="../../icons/Shooting.svg" alt="">
-
                     </div>
-                    <h4>Shooting</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis hic numquam omnis!</p>
+                    <h4 class="y">Shooting</h4>
+                    <p class="w">Capture breathtaking moments with precision and creativity, tailored for any occasion.</p>
                 </div>
-
             </div>
+            
             <div class="cat v">
                 <div class="top">
                     <div class="icon">
                         <img src="../../icons/video.svg" alt="">
-
                     </div>
-                    <h4>Video</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis hic numquam omnis!</p>
+                    <h4 class="y fw">Video</h4>
+                    <p class="w">Bring stories to life with high-quality video production that engages and inspires.</p>
                 </div>
-                
             </div>
+            
             <div class="cat e">
                 <div class="top">
                     <div class="icon">
                         <img src="../../icons/editing.svg" alt="">
-
                     </div>
-                    <h4>Editing</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis hic numquam omnis!</p>
+                    <h4 class="y">Editing</h4>
+                    <p class="w">Transform raw footage into captivating visual masterpieces with our expert editing services.</p>
                 </div>
-                
             </div>
+            
 
         </div>
         <div class="embed cen">
@@ -190,8 +174,8 @@
 
                 </span>
                 <span class="ver">
-                    <h4>Videos</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum accusamus quo itaque, quaerat optio, culpa modi, consequuntur accusantium repudiandae nisi magnam sed! Eum amet doloremque alias nisi voluptate rerum commodi.</p>
+                    <h4 class="y">Videos</h4>
+                    <p class="w">Immerse your audience with stunning visuals and engaging narratives. From conceptualization to production, our video services ensure every frame delivers impact. Whether it’s promotional content, event coverage, or cinematic storytelling, we use state-of-the-art equipment and creative expertise to bring your vision to life with precision and passion.</p>
                     <button>See More</button>
                 </span>
 
@@ -199,7 +183,7 @@
 
         </div>
         <div class="portfolio">
-            <h4>Portfolio</h4>
+            <h4 class="y">Portfolio</h4>
             <div class="tabs">
                 <span>All</span>
                 <span>Photoshoot</span>
@@ -231,7 +215,11 @@
             </div>
 
         </div>
-        <button class="pl">BROWSE ALL IMAGES</button>
+        <div class="fw">
+            <button class="pl">BROWSE ALL IMAGES</button>
+
+
+        </div>
         <div class="wwd">
             <aside class="cen">
                 <div class="imgbx"></div>
@@ -240,10 +228,10 @@
             </aside>
 
             <aside class="cen col">
-                <h4>What We Do</h4>
+                <h4 class="y ww">What We Do</h4>
               
                  <h6>Everything Media </h6>
-                <p>At Carl.TonMedia, we believe in the power of diverse media to tell your story in the most engaging way possible. Whether it’s photography, video, graphic design, or something entirely unique, we offer a full spectrum of media services to bring your ideas to life. No project is too big or too small—we’re here to help you create, connect, and leave a lasting impression through every medium. Let’s collaborate and make your vision shine across all platforms.</p>
+                <p class="w">At Carl.TonMedia, we believe in the power of diverse media to tell your story in the most engaging way possible. Whether it’s photography, video, graphic design, or something entirely unique, we offer a full spectrum of media services to bring your ideas to life. No project is too big or too small—we’re here to help you create, connect, and leave a lasting impression through every medium. Let’s collaborate and make your vision shine across all platforms.</p>
 
             </aside>
 

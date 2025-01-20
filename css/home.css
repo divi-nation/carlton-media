@@ -94,6 +94,7 @@
 .hero_text h4{
     font-size: 4rem;
     line-height: 4rem;
+    color: yellow;
 }
 .hero_text h6{
     font-size: 1.2rem;
@@ -103,7 +104,7 @@
 
 .hero_text p{
     font-size: 12px;
-    color: grey;
+    color: rgb(255, 255, 255);
     padding-top: 1rem;
     width: 66%;
     line-height: 1rem;
@@ -253,7 +254,7 @@
 
 .shots section p{
     font-size: 12px;
-    color: grey;
+    color: white;
     padding-top: 1rem;
     width: 60%;
     line-height: 1rem;
@@ -266,6 +267,9 @@
 
 .text_section{
     padding-top: 15rem !important;
+}
+.text_section h4{
+    color: yellow;
 }
 
 .text_section button{
@@ -345,7 +349,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    border: 2px solid orange;
+    border: 2px solid yellow;
     border-left: 0px solid;
     padding: .5rem;
 
@@ -355,7 +359,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    border: 2px solid orange;
+    border: 2px solid yellow;
     border-right: 0px solid;
 
     padding: .5rem;
@@ -369,7 +373,7 @@ button {
     border-radius: 5px;
     font-size: 1rem;
     z-index: 10;
-    border: 2px solid orange;
+    border: 2px solid yellow;
 
 }
 
@@ -460,8 +464,8 @@ button:hover {
 .top{
     position: absolute;
     z-index: 5;
-    bottom: 0;
-    left: -1rem;
+    bottom: 2rem;
+    left: 1rem !important;
     color: white;
 }
 .top h4{
@@ -471,7 +475,7 @@ button:hover {
 .top p{
     margin-top: 1rem;
     font-size: .8rem;
-    color: grey;
+    color: white;
 }
 
 .embed{
@@ -515,7 +519,7 @@ button:hover {
     font-weight: 200;
     font-size: .9rem;
     line-height: 1rem;
-    color: grey;
+    color: white;
 }
 .ver{
     display: flex;
@@ -548,7 +552,7 @@ button:hover {
 
 .tabs span{
     margin: 3rem;
-    color: grey;
+    color: white;
     padding: .5rem;
     border-bottom: 1px solid rgba(128, 128, 128, 0);
     transition: .2s ease-in-out;
@@ -556,7 +560,7 @@ button:hover {
 }
 
 .tabs span:hover{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid white;
     padding: 1rem;
     color: white;
 
@@ -616,7 +620,7 @@ button:hover {
 
 .col p{
     font-size: .8rem;
-    color: grey;
+    color: white;
     font-weight: 200;
     width: 70%;
     margin-top: 1rem;

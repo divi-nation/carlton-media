@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Now</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/home.css">
     <link rel="stylesheet" href="../../css/about.css">
     <link rel="stylesheet" href="../../css/contact.css">
-    <link rel="stylesheet" href="../../css/book_now.css">
     <link rel="stylesheet" href="../../css/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
@@ -18,32 +17,13 @@
 </style>
 <body>
     <div class="preloader">
+        <img src="../../assets/carl.tonmedia white main.png" alt="">
 
     </div>
-    
-    <div class="m_nav" >
-        <div class="close cen">
-            <i class="bi bi-x-lg"></i>
+    <?php
+    require "../../components/nav.php"
 
-        </div>
-        <div class="m_nav_element">
-            Home
-        </div>
-        <div class="m_nav_element" onclick="location.href='../about/'">
-            About 
-        </div>
-        <div class="m_nav_element" onclick="location.href='../contact/'">
-            Contact Us
-        </div>
-        <div class="m_nav_element" onclick="location.href='../portfolio/'">
-            Portfolio
-        </div>
-        <div class="m_nav_element" onclick="location.href='../book now/'">
-            Book Now
-        </div>
-     
-
-    </div>
+    ?>
     <div class="container">
         <nav>
             <span onclick="location.href='../home/'">
@@ -63,48 +43,67 @@
 
         </nav>
         <div class="a_hero cen">
-            <h2>Book Now</h2>
+            <h2>Contact Us</h2>
         </div>
 
         <div class="contact_form">
             <aside>
                 <form action="">
                     <div class="input">
-                        <input type="text" name="name" placeholder="Your Name" required>
+                         <input type="text" placeholder="Your Name">
                     </div>
                     <div class="input">
-                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="text" placeholder="Email">
                     </div>
                     <div class="input">
-                        <input type="tel" name="phone" placeholder="Phone" required>
+                        <input type="text" placeholder="Reason For Contact">
                     </div>
                     <div class="input">
-                        <select name="service_type" required>
-                            <option value="" disabled selected>Select Service Type</option>
-                            <option value="photography">Photography</option>
-                            <option value="videography">Videography</option>
-                            <option value="graphic_design">Graphic Design</option>
-                            <option value="media_consulting">Ushering services</option>
-                            <option value="media_consulting">Media Consulting</option>
-                            <option value="other">Other</option>
-                        </select>
+                         <textarea name="" id="">Your Message</textarea>
                     </div>
-                    <div class="input">
-                        <input type="date" name="date" placeholder="Date" required>
-                    </div>
-                    <div class="input">
-                        <textarea name="project_details" placeholder="Project Details" rows="4" required></textarea>
-                    </div>
-                    <div class="input">
-                        <textarea name="how_you_heard" placeholder="How did you hear about us?" rows="2"></textarea>
-                    </div>
-                    <div class="input">
-                        <textarea name="additional_notes" placeholder="Additional Notes" rows="3"></textarea>
-                    </div>
-                    <button type="submit">Send Message</button>
+                    <button>Send Message</button>
                 </form>
             </aside>
-             
+            <aside class="contact">
+                <span>
+                    <div class="con">
+                        <h6>Location</h6>
+                        <h5>USA, NewYour, 520 E</h5>
+                        <h5>6th St, NY20005</h5>
+                    </div>
+                    <div class="con2">
+                        <h6>Location</h6>
+                        <h5>+233 00 000 0000</h5>
+                        <h5>+233 00 000 0000</h5>
+                    </div>
+                    <div class="con2">
+                        <h6>Email</h6>
+                        <h5>Support@caltonmedia.com</h5>
+                     </div>
+                     <div class="con2">
+                        <h6>Social</h6>
+                        <div class="socials">
+                            <i class="bi bi-instagram "></i>
+                            <i class="bi bi-youtube"></i>    
+                            <i class="bi bi-whatsapp"></i>               
+                            <i class="bi bi-tiktok"></i>
+                            
+                        </div>                     </div>
+                     
+                    
+                </span>
+                <span class="white">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d848762.7967134347!2d-0.40474021942597895!3d5.614818282880851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9b6c3cd8a9f3%3A0x8cdcf45d2f2a72d!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sgh!4v1698384315408!5m2!1sen!2sgh" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </span>
+            </aside>
 
         </div>
 
@@ -139,6 +138,8 @@
         </footer>
         
     </div>
+    <script src="../../script/script.js"></script>
+
  
     
 </body>

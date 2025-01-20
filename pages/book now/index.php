@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Book Now</title>
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/home.css">
     <link rel="stylesheet" href="../../css/about.css">
     <link rel="stylesheet" href="../../css/contact.css">
-    <link rel="stylesheet" href="../../css/portfolio.css">
+    <link rel="stylesheet" href="../../css/book_now.css">
     <link rel="stylesheet" href="../../css/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
@@ -18,32 +18,14 @@
 </style>
 <body>
     <div class="preloader">
+        <img src="../../assets/carl.tonmedia white main.png" alt="">
 
     </div>
     
-    <div class="m_nav" >
-        <div class="close cen">
-            <i class="bi bi-x-lg"></i>
+    <?php
+    require "../../components/nav.php"
 
-        </div>
-        <div class="m_nav_element">
-            Home
-        </div>
-        <div class="m_nav_element" onclick="location.href='../about/'">
-            About 
-        </div>
-        <div class="m_nav_element" onclick="location.href='../contact/'">
-            Contact Us
-        </div>
-        <div class="m_nav_element" onclick="location.href='../portfolio/'">
-            Portfolio
-        </div>
-        <div class="m_nav_element" onclick="location.href='../book now/'">
-            Book Now
-        </div>
-     
-
-    </div>
+    ?>
     <div class="container">
         <nav>
             <span onclick="location.href='../home/'">
@@ -62,37 +44,52 @@
             </div>
 
         </nav>
-        <div class="a_hero cen col2">
-            <h2>Portfolio</h2>
-
-            <div class="tab_list">
-                <span class="active" onclick="location.href='../portfolio/'">Photography</span>
-                <span onclick="location.href='../videography/'">Videography</span>
-                <span onclick="location.href='../graphic_design/'">Graphic Design</span>
-            </div>
+        <div class="a_hero cen">
+            <h2>Book Now</h2>
         </div>
 
-        <div class="img_content">
-            <aside class="a1">
-                <div class="img_item"></div>
-                <div class="img_item"></div>
-                <div class="img_item"></div>
-                <div class="img_item"></div>
-                
+        <div class="contact_form">
+            <aside>
+                <form action="">
+                    <div class="input">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="input">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="input">
+                        <input type="tel" name="phone" placeholder="Phone" required>
+                    </div>
+                    <div class="input">
+                        <select name="service_type" required>
+                            <option value="" disabled selected>Select Service Type</option>
+                            <option value="photography">Photography</option>
+                            <option value="videography">Videography</option>
+                            <option value="graphic_design">Graphic Design</option>
+                            <option value="media_consulting">Ushering services</option>
+                            <option value="media_consulting">Media Consulting</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <input type="date" name="date" placeholder="Date" required>
+                    </div>
+                    <div class="input">
+                        <textarea name="project_details" placeholder="Project Details" rows="4" required></textarea>
+                    </div>
+                    <div class="input">
+                        <textarea name="how_you_heard" placeholder="How did you hear about us?" rows="2"></textarea>
+                    </div>
+                    <div class="input">
+                        <textarea name="additional_notes" placeholder="Additional Notes" rows="3"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
             </aside>
-            <aside class="a2">
-                <div class="img_item"></div>
-                <div class="img_item"></div>
-                <div class="img_item i1"></div>
-            </aside>
-            <aside class="a3">
-                <div class="img_item"></div>
-                <div class="img_item"></div>
-                <div class="img_item i2"></div>
-            </aside>
+             
+
         </div>
 
-   
          
       
     
@@ -124,6 +121,8 @@
         </footer>
         
     </div>
+    <script src="../../script/script.js"></script>
+
  
     
 </body>

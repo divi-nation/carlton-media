@@ -44,7 +44,7 @@ nav span{
 
 .hero_text p{
     font-size: 12px;
-    color: grey;
+    color: white;
     padding-top: 1rem;
     width: 66%;
     line-height: 1rem;
@@ -133,7 +133,7 @@ nav span{
 
 .shots section p{
     font-size: 12px;
-    color: grey;
+    color: white;
     padding-top: 1rem;
     width: 60%;
     line-height: 1rem;
@@ -293,7 +293,7 @@ nav span{
 .top p{
     margin-top: 1rem;
     font-size: .8rem;
-    color: grey;
+    color: white;
 }
 
 .embed{
@@ -335,7 +335,7 @@ nav span{
     font-weight: 200;
     font-size: .9rem;
     line-height: 1rem;
-    color: grey;
+    color: white;
 }
 .ver{
     display: flex;
@@ -368,7 +368,7 @@ nav span{
 
 .tabs span{
     margin: 3rem;
-    color: grey;
+    color: white;
 }
 
 .pl{
@@ -421,7 +421,7 @@ nav span{
 
 .col p{
     font-size: .8rem;
-    color: grey;
+    color: white;
     font-weight: 200;
     width: 70%;
     margin-top: 1rem;

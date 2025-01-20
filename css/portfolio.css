@@ -5,13 +5,13 @@
 .a_hero .tab_list{
     padding: 1rem;
     font-size: .9rem;
-    color: grey;
+    color: white;
 }
  
 
 .tab_list span{
     padding: 1rem;
-    color: grey;
+    color: white;
     font-size: .9rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0);
     padding-bottom: .5rem;

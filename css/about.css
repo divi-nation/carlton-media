@@ -13,6 +13,7 @@
 .a_hero h2{
     font-size: 5rem;
     font-weight: 900;
+    color: yellow;
 }
 
 .grp_photo{
@@ -29,7 +30,7 @@
 
 .grp_photo .text li, .grp_photo .text p{
     font-size: .9rem;
-    color: grey;
+    color: white;
     font-weight: 200;
     margin-top: 1rem;
 }

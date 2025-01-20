@@ -8,6 +8,13 @@
     color: white;
 }
 
+.y{
+    color: yellow !important;
+ }
+ .w{
+    color: white !important;
+ }
+
 .close{
     height: 2rem;
     width: 2rem;
@@ -22,6 +29,7 @@
 .close i{
     color: black;
 }
+
 .preloader {
     position: fixed;
     top: 0;
@@ -31,9 +39,17 @@
     background-color: #000;
     z-index: 1000;
     opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
      animation: preloader 3s forwards; /* 'forwards' ensures the last frame persists */
 }
+
+.preloader img{
+    width: 5rem;
+}
+
 
 @keyframes preloader {
     0% {
@@ -118,7 +134,7 @@ footer .socials{
      display: flex;
     align-items: center;
     justify-content: center;
-    color: grey;
+    color: white;
 
 }
 footer i{
@@ -128,14 +144,14 @@ footer i{
 footer h6{
     display: flex;
     width: max-content;
-    color: grey;
+    color: white;
     align-items: center;
     margin-top: 2rem;
 
 
 }
 footer h5{
-    color: grey;
+    color: white;
     font-size: 1.1rem;
     font-weight: 200;
 
@@ -145,7 +161,7 @@ footer h5{
 }
 
 .num{
-    color: grey;
+    color: white;
     font-size: 1.1rem;
     font-weight: 200;
 
@@ -153,7 +169,7 @@ footer h5{
 .bar{
     width: 1px;
     height: 2rem;
-    background: grey;
+    background: white;
     margin: 2rem;
     
 }
